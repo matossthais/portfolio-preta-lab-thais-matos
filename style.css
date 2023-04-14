@@ -183,7 +183,7 @@ li {
     height: 200px;
     display: flex;
     align-items: center;
-    padding-bottom: 50px;
+   padding-bottom: 90px;
   }
 
   
@@ -208,6 +208,17 @@ li {
     color: white;
 }  
   
+.container2 {
+
+  margin-right: auto; 
+  margin-left: auto;
+  margin-top: 100px; 
+  max-width: 2000px; 
+  padding-right: 10px; 
+  padding-left: 10px; 
+  width: 100%; 
+ 
+}
   
 
   
