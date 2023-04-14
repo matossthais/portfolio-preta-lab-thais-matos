@@ -37,21 +37,24 @@
     <main>
         <section class="principal">
             <article class="subcontainer-principal container">
-        <div>
+        <div class="imagem-perfil">
             <img src="image/200179996_656987052544671_2326502578818647872_n.jpg" alt="Minha imagem de perfil">
         </div>
 
         <div>
 
         
-            <h2 class="nome-completo">Thais Matos</h2>
+            <h1 class="nome-completo">Thais Matos</h1>
           
 
-            <h1 class="profissao">Geógrafa e Desenvolvedora</h1>
+            <h2 class="profissao">Geógrafa e Desenvolvedora</h2>
+
         </div>
 
+        <div>
+
         <p>
-            <div class="texto-sobre">
+          
 
             Pesquisadora e professora de Geografia, mestranda em ordenamento territorial e ambiental pelo 
             Programa de Pós Graduação em Geografia da Universidade Federal Fluminense e bolsista no programa 
@@ -63,26 +66,23 @@
         </article>
         </section>
 
-        <section>
-
+        <section id="formacao" class="formacao">
+            <article class="container article-lista">
             <div>
-                <h3>Formação</h3>
-
+                <h3 class="topico-principal">Formação</h3>
             </div>
-
-            <div>
+            <div class="lista-item">
                 <ul>
                     <li>
-                        <p>Licenciatura em Geografia</p>
-                        <p> Universidade Federal Fluminense</p>
-                        <p>Licenciatura em Geografia com ênfase em Geografia Humana, concluida no ano de 2021</p>
-
+                        <p class="lista-titulo">Licenciatura em Geografia</p>
+                        <p class="lista-subtitulo"> Universidade Federal Fluminense</p>
+                        <p class="lista-descricao">Licenciatura em Geografia com ênfase em Geografia Humana, concluida no ano de 2021</p>
                     </li>
 
                     <li>
-                        <p>Especialização em História da África e Diáspora Atlântica</p>
+                        <p class="lista-titulo">Especialização em História da África e Diáspora Atlântica</p>
                         <a href="https://pretosnovos.com.br/">Instituto Pretos Novos</a>
-                        <p>O Curso de Especialização em História da África e da Diáspora Atlântica tem por objetivo contribuir 
+                        <p class="lista-descricao">O Curso de Especialização em História da África e da Diáspora Atlântica tem por objetivo contribuir 
                             com os estudos e pesquisas nesta área em cumprimento das Leis 10.639/03 e 11.645/08. Para tanto, o 
                             Instituto de Pesquisa e Memória Pretos Novos – IPN – Museu Memorial, através do seu Núcleo de Pesquisa, 
                             em parceria com a FATECPR – Faculdade de Tecnologia de Curitiba tomam essa iniciativa visando atender à 
@@ -93,9 +93,9 @@
                     </li>
 
                     <li>
-                        <p>Formação Introdutória em Tecnologia</p>
+                        <p class="lista-titulo">Formação Introdutória em Tecnologia</p>
                         <a href="https://www.pretalab.com/">Preta Lab</a>
-                        <p>A formação O Poder do Futuro é para jovens negras que têm interesse na área de
+                        <p class="lista-descricao">A formação O Poder do Futuro é para jovens negras que têm interesse na área de
                             tecnologia e inovação e que estão comprometidas em aprender. Com 3 pilares
                             (conhecimento técnico, autoconhecimento e autogestão), a metodologia da Pretalab é o fio
                             condutor do percurso metodológico desta formação, dando a oportunidade das alunas
@@ -106,65 +106,60 @@
                 </ul>
             </div>
 
-
+        </article>
         </section>
-
-        </div>
-
-        <section>
-            <article>
-
+      
+        <section id="portfolio" class="projetos">
+            <article class="container article-lista">
                 <div>
-                    <p>Meus Projetos</p>
+                    <h3 class="topico-principal">Meus projetos</p>
                 </div>
-        
-                <div>
+                <div class="lista-item">
                     <ul>
                         <li>
-                            <p>Calculadora</p>
+                            <p class="lista-titulo">Calculadora</p>
                             <a href="https://funny-pegasus-12e57b.netlify.app/">Link para calculadora</a>
-                            <p>Projeto desenvolvido no ciclo formativo básico da Preta Lab, com finalidade de aprimorar os
+                            <p class="lista-descricao">Projeto desenvolvido no ciclo formativo básico da Preta Lab, com finalidade de aprimorar os
                             conhecimentos de linguagens de programação, utilizando JavaScript. </p>
-        
                         </li>
-
                         <li>
-                            <p>Portifólio Profissional</p>
-                            <p>Projeto desenvolvido no ciclo formativo básico da Preta Lab, com finalidade de aprimorar os
+                            <p class="lista-titulo">Portfólio Profissional</p>
+                            <p class="lista-descricao">Projeto desenvolvido no ciclo formativo básico da Preta Lab, com finalidade de aprimorar os
                                 conhecimentos em desenvolvimento WEB - HTML e CSS.</p>
-
                         </li>
                     </ul>
+                </div>
+             
 
 
             </article>
 
         </section>
 
-    </main>
+ 
 
-    <footer>
+    <footer class="rodape" id="contato">
 
-        <div>
-            <ul>
-                <li><i class="fa-solid fa-circle-envelope"></i>
-                    <a href="mailto:matosthais096@gmail.com target="blank">matosthais096@gmail.com</a>
-
-                </li>
-
-                <li><i class="fa-brands fa-linkedin"></i>
-                    <a href="https://www.linkedin.com/in/thais-matos-b85955199/" target="blank">Thais Matos</a>
+        <div class="container">
+            <ul class="lista-rodape">
+                <li><i class="fa-solid fa-square-envelope estilo-icon"></i>
+                    <a href="mailto:matosthais096@gmail.com target="_blank" class="links">matosthais096@gmail.com</a>
 
                 </li>
 
-                <li><i class="fa-brands fa-github"></i>
-                    <a href="https://github.com/matossthais" target="blank">matossthais</a>
+                <li><i class="fa-brands fa-linkedin estilo-icon"></i>
+                    <a href="https://www.linkedin.com/in/thais-matos-b85955199/" target="_blank" class="links">Thais Matos</a>
+
+                </li>
+
+                <li><i class="fa-brands fa-github estilo-icon"></i>
+                    <a href="https://github.com/matossthais" target="_blank" class="links">matossthais</a>
 
                 </li>
             </ul>
         </div>
     </footer>
-
+</main>
 </body>
 
 </html>

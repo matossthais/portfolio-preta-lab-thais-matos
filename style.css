@@ -15,6 +15,14 @@ body {
     margin: 0;
 }
 
+.imagem-perfil img{
+
+    float:none;
+    width: 50%;
+   
+   }
+
+
 li {
 
     list-style: none;
@@ -26,7 +34,7 @@ li {
     position: fixed; 
     width: 100%; 
     padding: 8px; 
-    padding-bottom: 32px; 
+    padding-bottom: 20x; 
     padding-top: 32px;
     height: 60px; 
     background-color: #2a6e78; 
@@ -63,7 +71,7 @@ li {
 
     height: 100vh;
     display: flex;
-    background-color:#f3dcb2; 
+    background-color: #c9b180; 
 
   }
 
@@ -71,11 +79,12 @@ li {
 
     margin-right: auto; 
     margin-left: auto;
-    margin-top: 75px; /
+    margin-top: 200px; 
     max-width: 960px; 
     padding-right: 10px; 
     padding-left: 10px; 
     width: 100%; 
+   
   }
   
   .subcontainer-principal{
@@ -85,29 +94,119 @@ li {
     justify-content: center;
     align-items: center;
     text-align: center;
+    line-height: 25px;
+    font-size: 13px;
 
   }
 
   .nome-completo {
 
-    font-size: 15px;
+    font-size: 25px;
     color: #3b4058;
     font-weight: 600; 
-    height: 45px;
+    height: 30px;
+    margin-top: 20px;
   }
   
   .profissao{
 
     font-size: 15px;
     color: #505045;
-    height: 60PX;
+    height: 60px;
+
+  }
+
+ /* FORMAÇÃO E PORTFOLIO */
+
+  .article-lista{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+
+  .topico-principal {
+
+    font-size: 21px;
+    color: #3b4058;
   }
   
-  .texto-sobre {
-    font-size: 12px;
-    line-height: 32px;
+  .lista-item{
+    padding: 32px;
+   
   }
   
+  .lista-item ul li {
+    margin-bottom: 50px;
+    margin-top: 50px;  
+  }
+  
+  .lista-titulo{
+   margin-bottom: 5px;
+   font-size: 18px;
+   color: #661e4b;
+   font-weight: 600;
+  }
+  
+  .lista-subtitulo{
+    font-size: 15px;
+    color: #474747;
+    
+  }
+  
+  .lista-descricao {
+
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+  }
+
+  .link {
+    padding-left:400px;
+  }
+
+  .projetos {
+
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+    background-color:#e5dfdf; 
+
+  }
+
+
+  
+  .rodape{
+    background-color: #c9b180;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  
+  
+  .lista-rodape li{
+    color:#2a6e78;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items:center;
+  }
+  
+  .estilo-icon {
+   font-size: 40px;
+   margin-right: 20px;
+  }
+  
+  .links {
+    text-decoration:none;
+    color: white;
+}  
   
   
 
